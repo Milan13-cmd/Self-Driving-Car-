@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  background-color: darkgray;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#verticalBtn{
+  display: flex;
+  flex-direction: column;
+
+}
+
+button{
+  border: none;
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: 5px 5px 7px 5px;
+  margin: 2px;
+  cursor: pointer;
+  transition:0.2s all ease-in;
+}
+button:nth-child(1):hover{
+  background-color: rgb(127, 232, 35);
+}
+
+button:nth-child(2):hover{
+  background-color: rgb(239, 27, 16);
+}
+
+#myCanvas{
+  background-color: rgb(69, 112, 95);
+}
+
+#networkCanvas{
+  background-color: rgb(67, 65, 63);
+}
